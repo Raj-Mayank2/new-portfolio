@@ -26,6 +26,19 @@ const Projects = ({ isDarkMode }) => {
       features: ["Payment Integration", "Bg-removal", "AI integration"]
     },
     {
+      title: "Pro-News Letter",
+      description: "A full-stack application which works as my online project journals where I record details of all my projects and all.",
+      tech: ["Next", "Node.js", "MongoDB", "RazorPay","SaaS","Express","Clerk","Axios","Cors"],
+      color: "from-green-400 to-blue-400",
+      image: project1,
+      github: "https://github.com/Raj-Mayank2/Pro-Newsletter",
+      live: "https://pronewsletter.netlify.app/",
+      status: "Completed",
+      year: "2024",
+      team: "Solo Project",
+      features: ["Payment Integration", "Bg-removal", "AI integration"]
+    },
+    {
       title: "Movie App",
       description: "Movie application made with 5000+ tmdb database with description of each movie.",
       tech: ["React", "TMDB", "API", "Express", "Redux"],
