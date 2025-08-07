@@ -4,6 +4,7 @@ import project2 from "../assets/project2.png"
 import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.png"
 import project5 from "../assets/project5.png"
+import project6 from "../assets/project6.png"
 const Projects = ({ isDarkMode }) => {
   const textClasses = isDarkMode ? "text-white" : "text-gray-900"
   const mutedTextClasses = isDarkMode ? "text-gray-300" : "text-gray-600"
@@ -17,7 +18,7 @@ const Projects = ({ isDarkMode }) => {
       description: "A full-stack SaaS application where user can remove the background from their images easily with no efforts.Sign in feature also implemented.",
       tech: ["React", "Node.js", "MongoDB", "RazorPay","SaaS","Express","Clerk","Axios","Cors"],
       color: "from-purple-400 to-pink-400",
-      image: project1,
+      image: project6,
       github: "https://github.com/Raj-Mayank2/bg-removals",
       live: "https://bg-removals.onrender.com/",
       status: "Completed",
