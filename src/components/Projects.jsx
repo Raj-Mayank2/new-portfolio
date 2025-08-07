@@ -37,7 +37,7 @@ const Projects = ({ isDarkMode }) => {
       status: "Completed",
       year: "2024",
       team: "Solo Project",
-      features: ["Payment Integration", "Bg-removal", "AI integration"]
+      features: ["personalized-journal", "admin-panel", "nextjs full stack"]
     },
     {
       title: "Movie App",
