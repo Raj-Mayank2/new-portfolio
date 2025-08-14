@@ -5,6 +5,7 @@ import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.png"
 import project5 from "../assets/project5.png"
 import project6 from "../assets/project6.png"
+import project7 from "../assets/project7.png"
 const Projects = ({ isDarkMode }) => {
   const textClasses = isDarkMode ? "text-white" : "text-gray-900"
   const mutedTextClasses = isDarkMode ? "text-gray-300" : "text-gray-600"
@@ -25,6 +26,19 @@ const Projects = ({ isDarkMode }) => {
       year: "2024",
       team: "Solo Project",
       features: ["Payment Integration", "Bg-removal", "AI integration"]
+    },
+    {
+      title: "SimplyTrue Foods",
+      description: "A modern, responsive platform for a healthy food startup, specializing in wholesome snacks for busy professionals. ",
+      tech: ["React", "Node.js","SaaS","Express"],
+      color: "from-blue-400 to-cyan-400",
+      image: project7,
+      github: "https://github.com/Raj-Mayank2/SimplyTrue",
+      live: "https://simplytrue.netlify.app/",
+      status: "Completed",
+      year: "2025",
+      team: "Solo Project",
+      features: ["TailwindCSS","Designing", "AI integration"]
     },
     {
       title: "Pro-News Letter",
