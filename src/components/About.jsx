@@ -23,13 +23,13 @@ const About = ({ isDarkMode }) => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className={`text-base sm:text-lg ${mutedTextClasses} leading-relaxed`}>
-              I’m a passionate Full Stack Developer with a strong foundation in building scalable, user-friendly web applications using modern technologies like React, Node.js, MongoDB, and Express. I enjoy turning complex problems into clean, efficient code and crafting seamless user experiences.
-
-With hands-on experience in both frontend and backend development, I specialize in creating full-stack solutions — from responsive UI design to secure server-side logic and robust database integration. I'm always eager to learn new technologies, contribute to impactful projects, and build software that solves real-world problems.
+             I’m a passionate Full Stack Developer with a strong foundation in building scalable, user-friendly web applications using modern technologies like React, Vite, Python, FastAPI, Node.js, Express, MongoDB, and PostgreSQL. I enjoy turning complex problems into clean, efficient code and crafting seamless user experiences.
+With hands-on experience across both frontend and backend development, I specialize in building full-stack applications, REST and GraphQL APIs, secure authentication systems, real-time applications, and database-driven platforms. I work with technologies like SQLAlchemy, Alembic, JWT, Server-Sent Events (SSE), and modern API architectures to create reliable and scalable solutions.
+I’m also actively exploring AI, LLMs, RAG, LangChain, and intelligent application development, with a strong interest in combining AI with practical software engineering.
+I’m always eager to learn new technologies, contribute to impactful projects, and build software that solves real-world problems.
             </p>
             <p className={`text-base sm:text-lg ${mutedTextClasses} leading-relaxed`}>
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
-              enjoying a good cup of coffee while brainstorming the next big idea.
+               When I’m not coding, you’ll find me exploring new technologies, working on side projects, contributing to open source, or enjoying a good cup of coffee while brainstorming the next big idea.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
