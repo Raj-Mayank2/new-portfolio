@@ -28,6 +28,38 @@ const Projects = ({ isDarkMode }) => {
       features: ["Payment Integration", "Bg-removal", "AI integration"]
     },
     {
+  title: "Dragon Ball API Platform",
+  description: "A developer-focused public API platform for exploring and consuming Dragon Ball character and saga data through REST, GraphQL, and real-time Server-Sent Events. Includes API explorer, JSON responses, search, filters, pagination, and JWT authentication.",
+  tech: [
+    "React",
+    "Vite",
+    "FastAPI",
+    "Python",
+    "PostgreSQL",
+    "SQLAlchemy",
+    "Alembic",
+    "GraphQL",
+    "SSE",
+    "JWT"
+  ],
+  color: "from-orange-400 to-yellow-400",
+  image: project2,
+  github: "https://github.com/Raj-Mayank2/dragonball-api",
+  live: "https://dragonball-api-vert.vercel.app",
+  status: "Completed",
+  year: "2026",
+  team: "Solo Project",
+  features: [
+    "REST API",
+    "GraphQL API",
+    "Real-time SSE",
+    "JWT Authentication",
+    "API Explorer",
+    "Search & Filtering",
+    "Pagination"
+  ]
+},
+    {
       title: "SimplyTrue Foods",
       description: "A modern, responsive platform for a healthy food startup, specializing in wholesome snacks for busy professionals. ",
       tech: ["React", "Node.js","SaaS","Express"],
